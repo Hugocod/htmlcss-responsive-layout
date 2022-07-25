@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 60%;
-  height: 300px;
+  height: fit-content;
 
   margin: 0 auto;
   background-color: aquamarine;
@@ -84,4 +84,46 @@ body {
 
 /*************************************************
    END - SERVICES-SECTION
+*************************************************/
+
+/*************************************************
+   PLANNING-SECTION
+*************************************************/
+#planning-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  height: 400px;
+  background-color: blue;
+}
+
+#planning-section .card {
+  height: 100%;
+  flex-basis: 50%;
+
+  background-color: rgb(187, 231, 217);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#planning-section .card-content {
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+
+  background-color: rgb(191, 255, 127);
+}
+
+/* media query - MOBILE */
+@media all and (max-width: 480px) {
+  #planning-section .card {
+    flex-basis: 100%;
+  }
+}
+
+/*************************************************
+   END - PLANNING-SECTION
 *************************************************/
