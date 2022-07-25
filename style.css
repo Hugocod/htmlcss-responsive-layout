@@ -1,0 +1,88 @@
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************************************************
+   END - GENERAL STYLES
+ *************************************************/
+
+/*************************************************
+   UTILITIES & MONOCLASS
+ *************************************************/
+
+.container {
+  width: 60%;
+  height: 300px;
+
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+/*************************************************
+   END - UTILITIES  & MONOCLASS
+ *************************************************/
+
+/*************************************************
+   SERVICES-SECTION
+ *************************************************/
+
+#services-section .container {
+  background-color: brown;
+
+  /* flex  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+#services-section .service-card {
+  width: 32%;
+  height: 200px;
+
+  background-color: rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services-section .card-content {
+  width: 90%;
+  height: 90%;
+
+  background-color: rgb(69, 36, 186);
+}
+
+#services-section .demo {
+  flex-basis: calc(100% / 3 * 2);
+}
+
+#services-section .code,
+#services-section .design,
+#services-section .development,
+#services-section .branding {
+  flex-basis: calc(100% / 3);
+}
+
+/* media query - MOBILE */
+@media all and (max-width: 480px) {
+  #services-section .demo,
+  #services-section .code,
+  #services-section .design,
+  #services-section .development,
+  #services-section .branding {
+    flex-basis: 100%;
+  }
+}
+
+/*************************************************
+   END - SERVICES-SECTION
+*************************************************/
