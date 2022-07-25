@@ -44,8 +44,7 @@ body {
 }
 
 #services-section .service-card {
-  width: 32%;
-  height: 200px;
+  height: 400px;
 
   background-color: rgb(0, 0, 0);
 
@@ -55,8 +54,8 @@ body {
 }
 
 #services-section .card-content {
-  width: 90%;
-  height: 90%;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
 
   background-color: rgb(69, 36, 186);
 }
