@@ -3,18 +3,18 @@
  *************************************************/
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 
 .container {
-  width: 70%;
-  height: fit-content;
+    width: 60%;
+    height: fit-content;
 
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 /* h1,
@@ -24,15 +24,15 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
-  padding: 0;
-} */
-
+    margin: 0;
+    padding: 0;
+}
+ */
 /* media query - TABLET */
 @media all and (max-width: 1200px) {
-  .container {
-    width: 100%;
-  }
+    .container {
+        width: 95%;
+    }
 }
 
 /*************************************************
@@ -43,76 +43,76 @@ p {
    UTILITIES & MONOCLASS
  *************************************************/
 .btn-getstart-small {
-  background-color: white;
-  border-radius: 5rem;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.1rem;
+    background-color: white;
+    border-radius: 5rem;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
 
-  margin-left: 20px;
-  white-space: nowrap;
+    margin-left: 20px;
+    white-space: nowrap;
 }
 
 .btn-big {
-  background-color: white;
-  border-radius: 5rem;
-  color: #9792e4;
-  border: none;
-  padding: 25px 80px;
-  font-size: 1.1rem;
+    background-color: white;
+    border-radius: 5rem;
+    color: #9792e4;
+    border: none;
+    padding: 25px 80px;
+    font-size: 1.1rem;
 
-  margin-left: 20px;
-  white-space: nowrap;
+    margin-left: 20px;
+    white-space: nowrap;
 }
 
 .btn-appstore {
-  background-color: #0084fd;
-  border-radius: 5rem;
-  color: rgb(255, 255, 255);
-  border: none;
-  padding: 10px 60px;
-  font-size: 1.1rem;
+    background-color: #0084fd;
+    border-radius: 5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 60px;
+    font-size: 1.1rem;
 
-  white-space: nowrap;
-  text-align: left;
+    white-space: nowrap;
+    text-align: left;
 }
 
 .btn-purple {
-  background-color: #9792e4;
-  border-radius: 5rem;
-  color: rgb(255, 255, 255);
-  border: none;
-  padding: 10px 60px;
-  font-size: 1.1rem;
+    background-color: #9792e4;
+    border-radius: 5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 60px;
+    font-size: 1.1rem;
 
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .font-size-2 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .color-blue {
-  color: #0084fd;
+    color: #0084fd;
 }
 
 .italic {
-  font-style: italic;
+    font-style: italic;
 }
 
 .pd-top-30px {
-  padding-top: 160px;
+    padding-top: 160px;
 }
 
 .title-medium {
-  font-size: 2.8rem;
-  color: #9792e4;
-  text-align: center;
+    font-size: 2.8rem;
+    color: #9792e4;
+    text-align: center;
 }
 
 .c-black {
-  color: black;
+    color: black;
 }
 /*************************************************
    END - UTILITIES  & MONOCLASS
@@ -123,58 +123,58 @@ p {
  *************************************************/
 
 header {
-  background-color: #0084fd;
+    background-color: #0084fd;
 
-  padding: 10px;
-  margin-bottom: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .nav-elements {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 header a {
-  color: white;
-  text-decoration: none;
-  padding: 0px 15px;
-  font-size: 1.1rem;
-  font-weight: 300;
-  white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 1.1rem;
+    font-weight: 300;
+    white-space: nowrap;
 }
 
 header ul {
-  display: flex;
-  list-style-type: none;
-  gap: 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
 }
 
 header li {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* media query - TABLET */
 @media all and (max-width: 1100px) {
-  header .nav-elements {
-    display: none;
-  }
+    header .nav-elements {
+        display: none;
+    }
 }
 
 header .fa-bars {
-  color: white;
+    color: white;
 }
 
 /* media query - DESKTOP */
 @media all and (min-width: 1100px) {
-  header .fa-bars {
-    display: none;
-  }
+    header .fa-bars {
+        display: none;
+    }
 }
 
 /*************************************************
@@ -184,95 +184,88 @@ header .fa-bars {
 /*************************************************
    SERVICES-SECTION
  *************************************************/
-
 #services-section .container {
-  /* flex  */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex-wrap: wrap;
-}
-
-#services-section .service-card {
-  height: 400px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#services-section .service-card.demo .card-content {
-  display: flex;
-  flex-direction: row;
-}
-
-#services-section .service-card.demo .card-content div {
-  flex-basis: 40%;
-  text-align: left;
-}
-
-#services-section .img {
-  height: 100%;
-  flex-basis: 80%;
-  background-image: url(assets/img/phone.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-#services-section .card-content {
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
-
-  background-color: #b5ddff;
-  border-radius: 1.5rem;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-}
-
-#services-section .demo {
-  flex-basis: calc(100% / 3 * 2);
-}
-
-#services-section .code,
-#services-section .design,
-#services-section .development,
-#services-section .branding {
-  flex-basis: calc(100% / 3);
-}
-
-#services-section .fa-solid {
-  font-size: 5vw;
-  color: #0084fd;
+    display: flex;
 }
 
 #services-section h1 {
-  font-size: 1.4rem;
-  color: #0084fd;
+    color: #0084fd;
 }
 
-#services-section p {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+#services-section .service-card {
+    background-color: #b5ddff;
+    margin: 10px;
+
+    border-radius: 2rem;
+
+    width: calc(100% / 3 - 20px);
+
+    text-align: center;
+
+    position: relative;
+}
+
+#services-section .card-content {
+    padding: 20px;
+    height: 100%;
+}
+
+#services-section .fa-solid {
+    font-size: 5rem;
+    color: #0084fd;
+}
+
+#services-section .service-card.demo {
+    flex-grow: 2;
+    text-align: left;
+}
+
+#services-section .container .service-card.demo .card-content {
+    display: flex;
+    padding: 0px;
+}
+
+#services-section .container .service-card.demo .card-content :first-child {
+    width: 60%;
+    padding: 10px;
+}
+
+#services-section .container .service-card.demo .card-content .img {
+    width: 70%;
+    height: 100%;
+    background-image: url(assets/img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+/* /* media query - TABLET */
+@media all and (max-width: 770px) {
+    #services-section .container .service-card.demo .card-content {
+        flex-direction: column;
+    }
+
+    #services-section .container .service-card.demo .card-content .img {
+        width: 100%;
+        height: 200px;
+    }
 }
 
 /* media query - MOBILE */
-@media all and (max-width: 480px) {
-  #services-section .demo,
-  #services-section .code,
-  #services-section .design,
-  #services-section .development,
-  #services-section .branding {
-    flex-basis: 100%;
-  }
-}
+@media all and (max-width: 520px) {
+    #services-section .container {
+        flex-direction: column;
+    }
 
+    #services-section .service-card {
+        width: 100%;
+    }
+
+    #services-section .container .service-card.demo .card-content .img {
+        width: 100%;
+        height: 300px;
+    }
+}
 /*************************************************
    END - SERVICES-SECTION
 *************************************************/
@@ -282,75 +275,83 @@ header .fa-bars {
 *************************************************/
 
 #planning-section {
-  background-color: #9792e4;
-  padding: 80px;
+    background-color: #9792e4;
+    padding: 80px 0px;
 }
 
 #planning-section .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
-  height: 100%;
-  width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #planning-section .card {
-  flex-basis: 50%;
+    flex-basis: 50%;
 
-  height: 100%;
+    height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #planning-section img {
-  width: 100%;
+    width: 100%;
 }
 
 #planning-section .card-content.development h1,
 #planning-section .card-content.development p {
-  color: rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
 }
 #planning-section .card-content.planning h1,
 #planning-section .card-content.planning p {
-  color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 #planning-section .card-content {
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
 }
 
 #planning-section .card-content.development {
-  background-color: white;
-  border-radius: 3rem;
-  padding: 50px;
-  height: 60%;
-  width: 50%;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 50px;
+    height: 60%;
+    width: 50%;
 
-  align-self: flex-end;
+    align-self: flex-end;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #planning-section .card-content.planning {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* media query - MOBILE */
-@media all and (max-width: 480px) {
-  #planning-section .card {
-    flex-basis: 100%;
-  }
+.fa-circle-arrow-down {
+    font-size: 3rem;
+    padding: 20px;
+    color: #9792e4;
+}
+
+/* /* media query - TABLET */
+@media all and (max-width: 770px) {
+    #planning-section .container {
+        flex-direction: column;
+    }
+
+    #planning-section .card-content.development {
+        width: 100%;
+
+        margin-top: 50px;
+    }
 }
 
 /*************************************************
@@ -362,85 +363,136 @@ header .fa-bars {
 *************************************************/
 
 #testimonials-section {
-  padding: 50px 0px;
+    padding: 50px 0px;
 }
 
 #testimonials-section .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #testimonials-section .card {
-  width: 100%;
+    width: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 #testimonials-section .card-content {
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  background-color: #9792e4;
-  border-radius: 2rem;
+    background-color: #9792e4;
+    border-radius: 2rem;
 
-  padding: 20px 10px;
-  margin: 20px 0px;
+    padding: 20px 10px;
+    margin: 20px 0px;
 }
 
 #testimonials-section .picture {
-  width: 20%;
-  aspect-ratio: 4/4;
+    width: 20%;
+    aspect-ratio: 4/4;
 
-  border-radius: 50%;
-  margin: 20px;
+    border-radius: 50%;
+    margin: 20px;
+}
 
-  background-image: url(assets/img/testimonial1.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.testimonial-1 {
+    background-image: url(assets/img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonial-2 {
+    background-image: url(assets/img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonial-3 {
+    background-image: url(assets/img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #testimonials-section .description {
-  flex-basis: 80%;
-  height: 100%;
+    flex-basis: 80%;
+    height: 100%;
 }
 
 #testimonials-section .description p {
-  color: white;
+    color: white;
+}
+
+#testimonials-section .description p::after {
+    content: close-quote;
+    color: white;
+    vertical-align: bottom;
+    line-height: 0;
+
+    font-size: 3rem;
+}
+#testimonials-section .description p::before {
+    content: open-quote;
+    color: white;
+    vertical-align: bottom;
+    line-height: 0;
+
+    font-size: 3rem;
 }
 
 #testimonials-section .container > p {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 #testimonials-section h3 {
-  color: white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 30px;
 }
 
 #testimonials-section h6 {
-  color: rgb(0, 0, 0);
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 /* media query - MOBILE */
-@media all and (max-width: 480px) {
-  #testimonials-section .card-content {
-    flex-direction: column;
-  }
+@media all and (max-width: 520px) {
+    #testimonials-section .card-content {
+        flex-direction: column;
+    }
+
+    #testimonials-section .picture {
+        width: 40%;
+        aspect-ratio: 4/4;
+
+        border-radius: 50%;
+        margin: 20px;
+    }
+
+    #testimonials-section .description p {
+        text-align: center;
+    }
+
+    #testimonials-section h3 {
+        text-align: center;
+    }
 }
 
 /*************************************************
@@ -452,66 +504,68 @@ header .fa-bars {
  *************************************************/
 
 #benefits-section > h1 {
-  font-size: 2.8rem;
-  text-align: center;
-  color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    color: white;
 }
 
 #benefits-section .service-card h1 {
-  font-size: 4rem;
-  color: #9792e4;
+    font-size: 4rem;
+    color: #9792e4;
+
+    margin: 0;
+    padding: 0;
 }
 #benefits-section .service-card h2 {
-  font-size: 1.4rem;
-  color: #9792e4;
+    font-size: 1.4rem;
+    color: #9792e4;
 }
 #benefits-section .service-card p {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 #benefits-section {
-  background-color: #9792e4;
-  padding: 50px 0px;
+    background-color: #9792e4;
+    padding: 50px 0px;
 }
 
 #benefits-section .container {
-  /* flex  */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    /* flex  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 #benefits-section .service-card {
-  width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 30px);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  margin: 10px;
+    margin: 10px;
 }
 
 #benefits-section .card-content {
-  background-color: white;
-  border-radius: 2rem;
-
-  padding: 50px;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 30px;
 }
 
-/* media query - TABLET */
-@media all and (max-width: 1100px) {
-  #benefits-section .service-card {
-    flex-basis: 50%;
-  }
+/* /* media query - TABLET */
+@media all and (max-width: 770px) {
+    #benefits-section .service-card {
+        width: calc(100% / 2 - 30px);
+    }
 }
 
 /* media query - MOBILE */
-@media all and (max-width: 480px) {
-  #benefits-section .service-card {
-    flex-basis: 100%;
-  }
+@media all and (max-width: 520px) {
+    #benefits-section .service-card {
+        width: 100%;
+    }
 }
 
 /*************************************************
@@ -523,81 +577,97 @@ header .fa-bars {
 *************************************************/
 
 #about-section {
-  padding: 50px 0px;
+    padding: 50px 0px;
 }
 
 #about-section h1 {
-  font-size: 4rem;
-  color: #9792e4;
+    font-size: 4rem;
+    color: #9792e4;
 }
 
 #about-section h3 {
-  font-size: 1.4rem;
-  color: #9792e4;
+    font-size: 1.4rem;
+    color: #9792e4;
 }
 
 #about-section p {
-  font-size: 1.3rem;
-  color: #000000;
+    font-size: 1.3rem;
+    color: #000000;
 }
 
 .fa-quote-left {
-  color: #9792e4;
+    color: #9792e4;
 }
 
 #about-section .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  gap: 30px;
+    gap: 30px;
 
-  height: fit-content;
+    height: fit-content;
 }
 
 #about-section .card-about {
-  width: 70%;
+    width: 70%;
 }
 #about-section .card-picture {
-  width: 30%;
+    width: 30%;
 }
 
 #about-section .card-content {
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
 }
 
 #about-section .picture {
-  width: 100%;
-  aspect-ratio: 4/4;
+    width: 100%;
+    aspect-ratio: 4/4;
 
-  border-radius: 50%;
-  background-size: cover;
-  background-image: url(assets/img/about.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(assets/img/about.jpg);
 
-  position: relative;
+    position: relative;
 }
 
 #about-section .fa-quote-left {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 4vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4vw;
 }
 
 #about-section a {
-  background-color: #9792e4;
-  color: white;
-  border-radius: 2rem;
-  padding: 5px 15px;
-  text-decoration: none;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 2rem;
+    padding: 5px 15px;
+    text-decoration: none;
+    white-space: nowrap;
 }
 
 /* media query - MOBILE */
-@media all and (max-width: 480px) {
-  #about-section .card {
-    flex-basis: 100%;
-  }
+@media all and (max-width: 520px) {
+    #about-section .container {
+        flex-direction: column;
+    }
+
+    #about-section .card-about {
+        width: 100%;
+    }
+    #about-section .card-picture {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #about-section .fa-quote-left {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 8vw;
+    }
 }
 
 /*************************************************
@@ -609,67 +679,70 @@ header .fa-bars {
 *************************************************/
 
 footer {
-  background-color: #9792e4;
+    background-color: #9792e4;
 }
 
+footer .container {
+    width: 60%;
+}
 footer h1 {
-  color: rgb(255, 255, 255);
-  font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
 }
 footer h6 {
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  font-size: 1rem;
-  font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 footer h5 {
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
-  font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 footer h2 {
-  color: #fdc15f;
-  font-size: 5rem;
+    color: #fdc15f;
+    font-size: 5rem;
 }
 
 footer p {
-  color: white;
+    color: white;
 }
 
 #footer-section .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  height: fit-content;
+    height: fit-content;
 
-  text-align: center;
+    text-align: center;
 }
 
 #footer-section .cta {
-  width: 100%;
+    width: 100%;
 
-  padding: 60px 0px;
+    padding: 60px 0px;
 
-  background-color: #9792e4;
+    background-color: #9792e4;
 }
 #footer-section .bottom-block {
-  width: 100%;
-  height: 100px;
+    width: 100%;
 
-  padding: 60px 0px;
-  background-color: #383838;
+    padding: 60px 0px;
+    background-color: #383838;
 }
 
 #footer-section .bottom-block p {
-  color: white;
+    color: white;
+    width: 40%;
 }
 #footer-section .bottom-block a {
-  color: #9792e4;
-  text-decoration: underline;
+    color: #9792e4;
+    text-decoration: underline;
 }
 
 /*************************************************
